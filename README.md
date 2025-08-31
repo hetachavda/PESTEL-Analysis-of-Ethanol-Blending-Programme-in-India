@@ -2,10 +2,10 @@
 
 **Course:** Data Analytics Case Study 2  
 **Professor:** Touraj Banirostam  
-**Submitted by:**  
+**Submitted by:** 
+- Heta Chavda (NF1014555) 
 - Rohit Kumar (NF1003118)  
-- Krishna Patel (NF1017043)  
-- Heta Chavda (NF1014555)  
+- Krishna Patel (NF1017043)   
 
 ---
 
