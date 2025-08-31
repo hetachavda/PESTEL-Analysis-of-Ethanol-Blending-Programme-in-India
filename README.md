@@ -2,144 +2,88 @@
 
 **Course:** Data Analytics Case Study 2  
 **Professor:** Touraj Banirostam  
-**Submitted by:** 
-- Heta Chavda (NF1014555)
+**Submitted by:**  
 - Rohit Kumar (NF1003118)  
 - Krishna Patel (NF1017043)  
+- Heta Chavda (NF1014555)  
 
 ---
 
 ## 📌 Project Overview  
-This case study applies **PESTEL analysis** to India’s **Ethanol Blending Programme (EBP)**. Using statistical analysis, visualizations, and predictive modeling, we evaluate the **economic, political, technological, social, and environmental dimensions** that shape the policy’s outcomes.  
+This case study applies **PESTEL analysis** (Political, Economic, Social, Technological, Environmental, and Legal) to India’s **Ethanol Blending Programme (EBP)**. Using a combination of statistical analysis, visualizations, and predictive models, the project examines the **economic, policy, and social impacts** of ethanol blending.  
 
 ---
 
 ## 🎯 Objectives  
-- Correlate **political and economic factors** influencing fuel demand.  
-- Examine whether **R&D investments improve production efficiency**.  
-- Analyze **consumer acceptance drivers** (complaints, sentiment, awareness).  
-- Assess **environmental impact** of ethanol blending.  
-- Explore **technological adoption** and AI’s role in efficiency.  
-- Provide **policy recommendations** for sustainability and growth.  
+- Analyze **political and economic correlations** influencing ethanol blending.  
+- Assess the impact of **R&D investments** on production efficiency.  
+- Evaluate **consumer acceptance** and sentiment drivers.  
+- Study **environmental factors** affecting sustainability.  
+- Forecast fuel demand relative to GDP growth and subsidies.  
+- Derive **policy, business, and sustainability recommendations**.  
 
 ---
 
-## 🔍 Analysis & Visuals  
+## 🔍 Key Analyses & Visuals  
 
 ### 1. Political & Economic Factors  
-- **Visualization:** Correlation heatmap of political & economic variables.  
-![Political-Economic Heatmap](images/political_economic_heatmap.png)  
-- **Key Findings:**  
-  - Elections strongly influence **foreign policy**.  
-  - Subsidies appear independent of political/economic stability.  
-  - Political stability has minimal influence on fuel demand:contentReference[oaicite:0]{index=0}.  
+- **Heatmap:** Elections strongly influence **foreign policy**, but government subsidies show weak correlation with other variables.  
+- **Insight:** Political stability minimally affects economic fuel demand:contentReference[oaicite:0]{index=0}.  
 
----
-
-### 2. R&D Investment vs Production Efficiency  
-- **Visualization:** Scatter plot of R&D vs Efficiency.  
-![R&D vs Production Efficiency](images/rd_vs_efficiency.png)  
-- **Key Findings:**  
-  - Flat trend → little/no impact of R&D on efficiency.  
-  - Suggests inefficiencies in fund allocation:contentReference[oaicite:1]{index=1}.  
-
----
+### 2. Production Efficiency vs R&D  
+- **Scatter Plot:** Flat trend between **R&D investment** and production efficiency.  
+- **Insight:** R&D funds may not be effectively driving production outcomes:contentReference[oaicite:1]{index=1}.  
 
 ### 3. Consumer Acceptance  
-- **Visualization:** Correlation bar chart of acceptance vs sentiment drivers.  
-![Consumer Acceptance Drivers](images/consumer_acceptance.png)  
-- **Key Findings:**  
-  - Complaints strongly correlate with acceptance.  
-  - Awareness and media sentiment show weaker influence.  
-  - Projected behavior often mismatches actual adoption:contentReference[oaicite:2]{index=2}.  
-
----
+- **Bar Chart:** Consumer complaints strongly correlated with acceptance; media awareness has minor influence.  
+- **Insight:** Addressing grievances builds trust more than publicity:contentReference[oaicite:2]{index=2}.  
 
 ### 4. Carbon Emissions & Sustainability  
-- **Visualization A:** Line chart of daily emissions (with forecast).  
-![Carbon Emissions Over Time](images/carbon_emissions.png)  
-- **Visualization B:** Bar chart of environmental factors on sustainability.  
-![Sustainability Factors](images/sustainability_factors.png)  
-- **Key Findings:**  
-  - Overall emissions declining (policy + clean fuels).  
-  - **CO₂ reduction** and **waste management** = strongest sustainability drivers.  
-  - Poor air quality reduces sustainability:contentReference[oaicite:3]{index=3}.  
+- **Line Chart:** Daily average emissions trending downward with spikes.  
+- **Bar Chart:** CO₂ reduction and waste management have the strongest positive sustainability impacts.  
+- **Insight:** Environmental gains require focus on emissions & waste control:contentReference[oaicite:3]{index=3}.  
 
----
-
-### 5. Regulatory Changes vs Public Approval  
-- **Visualization:** Scatter plot with regression line.  
-![Regulation vs Approval](images/regulation_vs_approval.png)  
-- **Key Findings:**  
-  - More regulatory changes = declining public approval.  
-  - Suggests need for **policy stability & communication**:contentReference[oaicite:4]{index=4}.  
-
----
+### 5. Regulatory Changes & Public Approval  
+- **Scatter Plot:** Frequent policy changes negatively correlated with approval.  
+- **Insight:** Transparent communication is essential for public trust:contentReference[oaicite:4]{index=4}.  
 
 ### 6. Economic Drivers of Fuel Demand  
-- **Visualization A:** Scatter plot of GDP vs Fuel Demand.  
-![GDP vs Fuel Demand](images/gdp_vs_fuel.png)  
-- **Visualization B:** Feature importance bar chart.  
-![Feature Importance](images/feature_importance.png)  
-- **Visualization C:** Correlation heatmap of economic indicators.  
-![Economic Heatmap](images/economic_heatmap.png)  
-- **Key Findings:**  
-  - GDP ↑ → Fuel Demand ↓ (-0.61 correlation).  
-  - Consumer spending ↑ → Fuel Demand ↑ (+0.61 correlation).  
-  - Oil import costs = biggest factor:contentReference[oaicite:5]{index=5}.  
-
----
+- **Heatmap & Scatter:** GDP growth negatively correlated with fuel demand (-0.61), while consumer spending positively correlates (+0.61).  
+- **Top Factors:** Oil import cost and consumer spending dominate demand drivers:contentReference[oaicite:5]{index=5}.  
 
 ### 7. Technological Adoption  
-- **Visualization A:** Patent trend line chart.  
-![Patent Trends](images/patent_trends.png)  
-- **Visualization B:** Scatter plot of AI impact vs Efficiency.  
-![AI Impact on Supply Chain](images/ai_vs_efficiency.png)  
-- **Key Findings:**  
-  - Patent registrations steadily rising.  
-  - AI integration significantly boosts production efficiency.  
-  - R&D investment misaligned with outcomes:contentReference[oaicite:6]{index=6}.  
-
----
+- **Patent & Innovation Trends:** Steady increase in patents; AI integration improves supply chain efficiency.  
+- **Insight:** R&D misaligned, but AI shows strong potential:contentReference[oaicite:6]{index=6}.  
 
 ### 8. Social Perceptions  
-- **Visualization A:** Consumer acceptance vs food-vs-fuel concerns.  
-![Food vs Fuel Concerns](images/food_vs_fuel.png)  
-- **Visualization B:** Public awareness distribution.  
-![Public Awareness](images/public_awareness.png)  
-- **Visualization C:** Consumer complaint index (pie chart).  
-![Consumer Complaints](images/consumer_complaints.png)  
-- **Key Findings:**  
-  - Food security concerns exist, but adoption continues.  
-  - Complaints spread across groups, not localized.  
-  - Awareness evenly distributed, weak impact on acceptance:contentReference[oaicite:7]{index=7}.  
+- **Metrics:** Consumer acceptance high despite food vs fuel concerns.  
+- **Insight:** Food security concerns exist but don’t block adoption:contentReference[oaicite:7]{index=7}.  
 
 ---
 
 ## 📊 PESTEL Summary  
 
-- **Political:** Elections affect foreign policy; frequent changes hurt approval.  
-- **Economic:** GDP growth reduces demand; oil imports & consumer spending drive fuel use.  
-- **Social:** Complaints matter more than media; food-vs-fuel worries present.  
-- **Technological:** AI boosts efficiency; R&D impact limited.  
-- **Environmental:** CO₂ reduction & waste management = most impactful.  
-- **Legal:** Over-frequent policy changes reduce trust.  
+- **Political:** Elections shape foreign policy; frequent regulatory changes lower approval.  
+- **Economic:** GDP growth reduces fuel demand; oil import costs & consumer spending drive demand.  
+- **Social:** Consumer complaints matter more than media; food security concerns exist.  
+- **Technological:** AI boosts efficiency, but R&D investment doesn’t directly improve production.  
+- **Environmental:** CO₂ reduction & waste management are critical for sustainability.  
+- **Legal:** Excessive policy changes reduce public confidence.  
 
 ---
 
 ## ✅ Recommendations  
-
-1. **Enhance Policy Stability:** Gradual & transparent changes.  
-2. **Reallocate R&D Funds:** Target supply chain & labor efficiency.  
-3. **Boost Consumer Trust:** Build grievance redressal systems.  
-4. **Accelerate Sustainability:** Focus on CO₂ & waste management.  
-5. **Leverage Economic Growth:** Invest in alternative fuels & infra.  
-6. **Expand AI Use:** Integrate AI across supply chains.  
-7. **Run Awareness Campaigns:** Clarify benefits vs food security risks:contentReference[oaicite:8]{index=8}.  
+1. **Enhance Policy Stability:** Gradual, well-communicated changes to maintain trust.  
+2. **Reallocate R&D Funds:** Focus on supply chain optimization & workforce efficiency.  
+3. **Improve Consumer Trust:** Prioritize grievance redressal systems.  
+4. **Accelerate Sustainability:** Strengthen CO₂ reduction & waste management measures.  
+5. **Invest in Alternatives:** Leverage GDP growth patterns to boost clean energy adoption.  
+6. **Expand AI Use:** Integrate AI across supply chains for efficiency.  
+7. **Awareness Campaigns:** Clarify ethanol’s environmental/economic benefits to offset food-security concerns:contentReference[oaicite:8]{index=8}.  
 
 ---
 
 ## 📌 Conclusion  
-The ethanol blending program is shaped by **politics, economics, technology, society, and environment**. While **AI adoption and environmental measures** hold promise, challenges include **R&D inefficiencies, regulatory instability, and consumer trust gaps**. Success depends on **policy balance, sustainability efforts, and tech-driven innovation**.  
+The ethanol blending program sits at the intersection of **policy, economy, environment, and society**. While **AI integration and environmental policies** show promise, the program faces challenges in **R&D alignment, regulatory stability, and consumer trust**. A balanced approach combining **policy stability, sustainability focus, and AI-driven innovation** can maximize the success of India’s ethanol strategy.  
 
 ---
