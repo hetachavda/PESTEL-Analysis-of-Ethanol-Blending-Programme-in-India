@@ -1,89 +1,164 @@
-# 🌱 Ethanol Blending Programme in India – PESTEL Analysis  
+<div align="center">
 
-**Course:** Data Analytics Case Study 2  
-**Professor:** Touraj Banirostam  
-**Submitted by:** 
-- Heta Chavda (NF1014555) 
-- Rohit Kumar (NF1003118)  
-- Krishna Patel (NF1017043)   
+![Banner](assets/banner.svg)
 
----
+# 🌱⛽ PESTEL Analysis of India's Ethanol Blending Programme
+### A Data-Driven Macro-Environment Case Study — Excel, Correlation & Trend Analysis
 
-## 📌 Project Overview  
-This case study applies **PESTEL analysis** (Political, Economic, Social, Technological, Environmental, and Legal) to India’s **Ethanol Blending Programme (EBP)**. Using a combination of statistical analysis, visualizations, and predictive models, the project examines the **economic, policy, and social impacts** of ethanol blending.  
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-2a78d6?style=for-the-badge&logo=databricks&logoColor=white)
+![PESTEL](https://img.shields.io/badge/Framework-PESTEL-1baf7a?style=for-the-badge)
+![Policy](https://img.shields.io/badge/Domain-Energy%20Policy-eda100?style=for-the-badge)
 
----
+![Type](https://img.shields.io/badge/Study-Macro%20Analysis-blue?style=flat-square)
+![Factors](https://img.shields.io/badge/PESTEL%20Factors-6-brightgreen?style=flat-square)
+![Method](https://img.shields.io/badge/Method-Correlation%20%2B%20Trends-orange?style=flat-square)
+![Format](https://img.shields.io/badge/Deliverable-Report%20%2B%20Deck-e87ba4?style=flat-square)
 
-## 🎯 Objectives  
-- Analyze **political and economic correlations** influencing ethanol blending.  
-- Assess the impact of **R&D investments** on production efficiency.  
-- Evaluate **consumer acceptance** and sentiment drivers.  
-- Study **environmental factors** affecting sustainability.  
-- Forecast fuel demand relative to GDP growth and subsidies.  
-- Derive **policy, business, and sustainability recommendations**.  
+</div>
 
 ---
 
-## 🔍 Key Analyses & Visuals  
+## 📌 Project at a Glance
 
-### 1. Political & Economic Factors  
-- **Heatmap:** Elections strongly influence **foreign policy**, but government subsidies show weak correlation with other variables.  
-- **Insight:** Political stability minimally affects economic fuel demand:contentReference[oaicite:0]{index=0}.  
-
-### 2. Production Efficiency vs R&D  
-- **Scatter Plot:** Flat trend between **R&D investment** and production efficiency.  
-- **Insight:** R&D funds may not be effectively driving production outcomes:contentReference[oaicite:1]{index=1}.  
-
-### 3. Consumer Acceptance  
-- **Bar Chart:** Consumer complaints strongly correlated with acceptance; media awareness has minor influence.  
-- **Insight:** Addressing grievances builds trust more than publicity:contentReference[oaicite:2]{index=2}.  
-
-### 4. Carbon Emissions & Sustainability  
-- **Line Chart:** Daily average emissions trending downward with spikes.  
-- **Bar Chart:** CO₂ reduction and waste management have the strongest positive sustainability impacts.  
-- **Insight:** Environmental gains require focus on emissions & waste control:contentReference[oaicite:3]{index=3}.  
-
-### 5. Regulatory Changes & Public Approval  
-- **Scatter Plot:** Frequent policy changes negatively correlated with approval.  
-- **Insight:** Transparent communication is essential for public trust:contentReference[oaicite:4]{index=4}.  
-
-### 6. Economic Drivers of Fuel Demand  
-- **Heatmap & Scatter:** GDP growth negatively correlated with fuel demand (-0.61), while consumer spending positively correlates (+0.61).  
-- **Top Factors:** Oil import cost and consumer spending dominate demand drivers:contentReference[oaicite:5]{index=5}.  
-
-### 7. Technological Adoption  
-- **Patent & Innovation Trends:** Steady increase in patents; AI integration improves supply chain efficiency.  
-- **Insight:** R&D misaligned, but AI shows strong potential:contentReference[oaicite:6]{index=6}.  
-
-### 8. Social Perceptions  
-- **Metrics:** Consumer acceptance high despite food vs fuel concerns.  
-- **Insight:** Food security concerns exist but don’t block adoption:contentReference[oaicite:7]{index=7}.  
+| | |
+|---|---|
+| **🎯 Goal** | Assess India's Ethanol Blending Programme (EBP) across all six PESTEL dimensions |
+| **🧠 Approach** | Correlation heatmaps, scatter/bar/line charts and trend analysis over a compiled dataset |
+| **📊 Data** | `Ethanol_PESTEL_Data` — quantitative indicators spanning political, economic, social, technological, environmental & legal variables |
+| **📈 Delivery** | Final report (PDF) + presentation deck, supported by Excel analysis |
 
 ---
 
-## 📊 PESTEL Summary  
+## 🧩 Business Problem / Context
 
-- **Political:** Elections shape foreign policy; frequent regulatory changes lower approval.  
-- **Economic:** GDP growth reduces fuel demand; oil import costs & consumer spending drive demand.  
-- **Social:** Consumer complaints matter more than media; food security concerns exist.  
-- **Technological:** AI boosts efficiency, but R&D investment doesn’t directly improve production.  
-- **Environmental:** CO₂ reduction & waste management are critical for sustainability.  
-- **Legal:** Excessive policy changes reduce public confidence.  
+India's Ethanol Blending Programme aims to blend ethanol into petrol to cut oil-import dependence, reduce emissions, and support the farm economy. But a national fuel policy succeeds or fails on many fronts at once.
 
----
+> **The question:** *Which macro-environment forces most strongly shape the programme's outcomes — and where should policy effort be concentrated?*
 
-## ✅ Recommendations  
-1. **Enhance Policy Stability:** Gradual, well-communicated changes to maintain trust.  
-2. **Reallocate R&D Funds:** Focus on supply chain optimization & workforce efficiency.  
-3. **Improve Consumer Trust:** Prioritize grievance redressal systems.  
-4. **Accelerate Sustainability:** Strengthen CO₂ reduction & waste management measures.  
-5. **Invest in Alternatives:** Leverage GDP growth patterns to boost clean energy adoption.  
-6. **Expand AI Use:** Integrate AI across supply chains for efficiency.  
-7. **Awareness Campaigns:** Clarify ethanol’s environmental/economic benefits to offset food-security concerns:contentReference[oaicite:8]{index=8}.  
+A **PESTEL** lens turns a broad policy debate into six structured, evidence-backed dimensions, so recommendations rest on observed relationships rather than opinion.
 
 ---
 
-## 📌 Conclusion  
-The ethanol blending program sits at the intersection of **policy, economy, environment, and society**. While **AI integration and environmental policies** show promise, the program faces challenges in **R&D alignment, regulatory stability, and consumer trust**. A balanced approach combining **policy stability, sustainability focus, and AI-driven innovation** can maximize the success of India’s ethanol strategy.  
+## 🗂️ Scope / Data
+
+| Dimension | What was examined |
+|---|---|
+| 🔵 **Political** | Elections, government subsidies, policy-change frequency vs public approval |
+| 🟡 **Economic** | GDP growth, consumer spending, oil-import cost vs fuel demand |
+| 🌸 **Social** | Consumer acceptance, complaints, media awareness, food-vs-fuel concerns |
+| 🟣 **Technological** | Patent trends, R&D investment, AI in supply chains |
+| 🟢 **Environmental** | Carbon emissions trends, CO₂ reduction, waste management |
+| 🔴 **Legal** | Regulatory stability, transparency, public confidence |
 
 ---
+
+## 🔬 Methodology / Framework
+
+```
+PESTEL CASE-STUDY WORKFLOW
+──────────────────────────────────────────────
+1. Compile indicators into Ethanol_PESTEL_Data (Excel)
+2. Map each variable to a PESTEL dimension
+3. Build correlation heatmaps across variables
+4. Chart trends (line / bar / scatter) per factor
+5. Read signal strength & direction of each driver
+6. Translate findings into policy recommendations
+──────────────────────────────────────────────
+Factors:  Political · Economic · Social ·
+          Technological · Environmental · Legal
+```
+
+---
+
+## 📊 PESTEL Insights Dashboard
+
+<div align="center">
+
+![Dashboard](assets/dashboard.svg)
+
+*One insight per PESTEL dimension, plus signal-strength of the key drivers. Numeric values (±0.61) are correlations reported in the analysis; bars marked "repr" illustrate the reported direction/strength.*
+
+</div>
+
+---
+
+## 📈 Key Insights
+
+### 🔵 Political
+- **Frequent policy changes correlate negatively with public approval**
+- Elections shape decisions; government subsidies show only weak economic correlation
+
+### 🟡 Economic
+- **Consumer spending (+0.61)** is the strongest driver of fuel demand
+- **GDP growth (−0.61)** moves inversely to fuel demand; oil-import cost also matters
+
+### 🌸 Social
+- **Resolving grievances builds acceptance more than media awareness**
+- Acceptance stays high despite food-vs-fuel concerns
+
+### 🟣 Technological
+- Patent activity rises steadily; **AI shows strong potential for supply-chain efficiency**
+- R&D investment shows a **flat correlation** with production efficiency — a possible misallocation
+
+### 🟢 Environmental
+- Emissions trend downward with periodic spikes
+- **CO₂ reduction and waste management** deliver the strongest sustainability gains
+
+### 🔴 Legal
+- Excessive regulatory change **erodes public confidence** — policy stability is critical
+
+---
+
+## 💼 Impact / Takeaways
+
+| Priority | Recommendation |
+|---|---|
+| 🔴 **Policy stability** | Roll out gradual, well-communicated regulatory changes |
+| 🟣 **R&D focus** | Reallocate R&D toward supply-chain optimisation and AI integration |
+| 🌸 **Trust** | Build robust grievance-redressal systems over publicity campaigns |
+| 🟢 **Sustainability** | Strengthen CO₂-reduction and waste-management initiatives |
+| 🟡 **Growth** | Leverage GDP and spending patterns to time clean-energy expansion |
+
+---
+
+## 🛠️ Tools & Techniques
+
+| Category | Tools |
+|---|---|
+| **Analysis** | Microsoft Excel (dataset, charts, correlation) |
+| **Methods** | Correlation heatmaps, trend analysis, scatter/bar/line charts |
+| **Framework** | PESTEL (Political, Economic, Social, Technological, Environmental, Legal) |
+| **Deliverables** | Final report (PDF) + presentation deck |
+
+---
+
+## 📁 Repository Contents
+
+```
+PESTEL Ethanol Blending Programme/
+├── 📁 assets/
+│   ├── 🎨 banner.svg                     # Repository banner
+│   └── 📊 dashboard.svg                  # PESTEL dashboard
+├── 📁 data/
+│   └── 📊 Ethanol_PESTEL_Data (2) (1).xlsx   # Compiled indicators + charts
+├── 📁 docs/
+│   ├── 📄 Final Report.pdf               # Full PESTEL write-up
+│   └── 📄 Final Presentation.pptx        # Summary deck
+└── 📝 README.md                          # Project overview
+```
+
+---
+
+<div align="center">
+
+**Heta Chavda** — Data Analytics | Business Intelligence | Policy Analysis
+
+*Group case study with Rohit Kumar & Krishna Patel*
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hetachavda)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hetachavda)
+
+⭐ *Found this useful? Give it a star!*
+
+</div>

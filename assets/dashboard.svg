@@ -1,0 +1,130 @@
+<svg width="1200" height="880" viewBox="0 0 1200 880" xmlns="http://www.w3.org/2000/svg"
+     font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0e7a55"/>
+      <stop offset="100%" stop-color="#eda100"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="880" fill="#f9f9f7"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="1200" height="86" fill="url(#head)"/>
+  <text x="30" y="42" font-size="26" font-weight="700" fill="#ffffff">PESTEL Analysis — India's Ethanol Blending Programme</text>
+  <text x="30" y="70" font-size="15" fill="#fdf1cf">Six macro-environment factors assessed with correlation &amp; trend analysis</text>
+
+  <!-- KPI tiles -->
+  <rect x="30" y="110" width="360" height="100" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="30" y="110" width="6" height="100" rx="3" fill="#1baf7a"/>
+  <text x="58" y="146" font-size="14" font-weight="600" fill="#898781" letter-spacing="1">PESTEL FACTORS</text>
+  <text x="56" y="192" font-size="42" font-weight="700" fill="#0b0b0b">6</text>
+
+  <rect x="420" y="110" width="360" height="100" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="420" y="110" width="6" height="100" rx="3" fill="#2a78d6"/>
+  <text x="448" y="146" font-size="14" font-weight="600" fill="#898781" letter-spacing="1">KEY CORRELATION</text>
+  <text x="446" y="192" font-size="42" font-weight="700" fill="#0b0b0b">±0.61</text>
+
+  <rect x="810" y="110" width="360" height="100" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="810" y="110" width="6" height="100" rx="3" fill="#eda100"/>
+  <text x="838" y="146" font-size="14" font-weight="600" fill="#898781" letter-spacing="1">DECISION LEVERS</text>
+  <text x="836" y="192" font-size="42" font-weight="700" fill="#0b0b0b">7</text>
+
+  <!-- Factor grid -->
+  <text x="30" y="248" font-size="16" font-weight="700" fill="#0b0b0b">Factor Map — insight per PESTEL dimension</text>
+
+  <!-- Political -->
+  <rect x="30" y="262" width="366" height="128" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="30" y="262" width="6" height="128" rx="3" fill="#2a78d6"/>
+  <circle cx="70" cy="300" r="18" fill="#2a78d6"/>
+  <text x="70" y="306" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">P</text>
+  <text x="98" y="298" font-size="16" font-weight="700" fill="#0b0b0b">Political</text>
+  <text x="98" y="316" font-size="11.5" fill="#898781">Elections &amp; subsidies</text>
+  <text x="24" y="348" font-size="12.5" fill="#52514e"><tspan x="52">Frequent policy shifts correlate negatively with</tspan><tspan x="52" dy="18">public approval; elections steer program decisions.</tspan></text>
+
+  <!-- Economic -->
+  <rect x="416" y="262" width="366" height="128" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="416" y="262" width="6" height="128" rx="3" fill="#eda100"/>
+  <circle cx="456" cy="300" r="18" fill="#eda100"/>
+  <text x="456" y="306" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">E</text>
+  <text x="484" y="298" font-size="16" font-weight="700" fill="#0b0b0b">Economic</text>
+  <text x="484" y="316" font-size="11.5" fill="#898781">Demand drivers</text>
+  <text x="410" y="348" font-size="12.5" fill="#52514e"><tspan x="438">GDP growth −0.61 vs fuel demand, while consumer</tspan><tspan x="438" dy="18">spending +0.61 is the strongest demand driver.</tspan></text>
+
+  <!-- Social -->
+  <rect x="802" y="262" width="368" height="128" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="802" y="262" width="6" height="128" rx="3" fill="#e87ba4"/>
+  <circle cx="842" cy="300" r="18" fill="#e87ba4"/>
+  <text x="842" y="306" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+  <text x="870" y="298" font-size="16" font-weight="700" fill="#0b0b0b">Social</text>
+  <text x="870" y="316" font-size="11.5" fill="#898781">Public acceptance</text>
+  <text x="796" y="348" font-size="12.5" fill="#52514e"><tspan x="824">Resolving grievances builds acceptance more</tspan><tspan x="824" dy="18">effectively than media / publicity campaigns.</tspan></text>
+
+  <!-- Technological -->
+  <rect x="30" y="404" width="366" height="128" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="30" y="404" width="6" height="128" rx="3" fill="#4a3aa7"/>
+  <circle cx="70" cy="442" r="18" fill="#4a3aa7"/>
+  <text x="70" y="448" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">T</text>
+  <text x="98" y="440" font-size="16" font-weight="700" fill="#0b0b0b">Technological</text>
+  <text x="98" y="458" font-size="11.5" fill="#898781">Innovation &amp; AI</text>
+  <text x="24" y="490" font-size="12.5" fill="#52514e"><tspan x="52">Patents rising steadily; AI shows strong potential</tspan><tspan x="52" dy="18">for supply-chain efficiency across production.</tspan></text>
+
+  <!-- Environmental -->
+  <rect x="416" y="404" width="366" height="128" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="416" y="404" width="6" height="128" rx="3" fill="#1baf7a"/>
+  <circle cx="456" cy="442" r="18" fill="#1baf7a"/>
+  <text x="456" y="448" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">E</text>
+  <text x="484" y="440" font-size="16" font-weight="700" fill="#0b0b0b">Environmental</text>
+  <text x="484" y="458" font-size="11.5" fill="#898781">Sustainability</text>
+  <text x="410" y="490" font-size="12.5" fill="#52514e"><tspan x="438">CO2 reduction &amp; waste management deliver the</tspan><tspan x="438" dy="18">strongest sustainability impact for the program.</tspan></text>
+
+  <!-- Legal -->
+  <rect x="802" y="404" width="368" height="128" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="802" y="404" width="6" height="128" rx="3" fill="#e34948"/>
+  <circle cx="842" cy="442" r="18" fill="#e34948"/>
+  <text x="842" y="448" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">L</text>
+  <text x="870" y="440" font-size="16" font-weight="700" fill="#0b0b0b">Legal</text>
+  <text x="870" y="458" font-size="11.5" fill="#898781">Regulatory stability</text>
+  <text x="796" y="490" font-size="12.5" fill="#52514e"><tspan x="824">Excessive regulatory change erodes confidence;</tspan><tspan x="824" dy="18">policy stability is critical to sustained success.</tspan></text>
+
+  <!-- Signal strength panel -->
+  <rect x="30" y="552" width="1140" height="300" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <circle cx="48" cy="584" r="5" fill="#2a78d6"/>
+  <text x="62" y="589" font-size="16" font-weight="700" fill="#0b0b0b">Signal Strength by Key Driver</text>
+  <text x="1140" y="589" font-size="11" fill="#898781" text-anchor="end">negative ←  |  → positive</text>
+
+  <!-- zero axis -->
+  <line x1="780" y1="612" x2="780" y2="828" stroke="#c3c2b7" stroke-width="1.5"/>
+  <text x="780" y="846" font-size="11" fill="#898781" text-anchor="middle">0</text>
+
+  <!-- rows -->
+  <!-- Consumer spending -> demand : +0.61 -->
+  <text x="50" y="638" font-size="13" fill="#0b0b0b">Consumer spending → fuel demand</text>
+  <rect x="780" y="627" width="220" height="22" rx="4" fill="#1baf7a"/>
+  <text x="1008" y="643" font-size="12" font-weight="700" fill="#0e7a55">+0.61</text>
+
+  <!-- CO2/waste -> sustainability : Strong (repr) -->
+  <text x="50" y="682" font-size="13" fill="#0b0b0b">CO2 + waste mgmt → sustainability</text>
+  <rect x="780" y="671" width="252" height="22" rx="4" fill="#eb6834"/>
+  <text x="1040" y="687" font-size="12" font-weight="700" fill="#eb6834">Strong · repr</text>
+
+  <!-- Grievance -> acceptance : Moderate (repr) -->
+  <text x="50" y="726" font-size="13" fill="#0b0b0b">Grievance resolution → acceptance</text>
+  <rect x="780" y="715" width="180" height="22" rx="4" fill="#eda100"/>
+  <text x="968" y="731" font-size="12" font-weight="700" fill="#b57c00">Moderate · repr</text>
+
+  <!-- R&D -> efficiency : Flat (repr) -->
+  <text x="50" y="770" font-size="13" fill="#0b0b0b">R&amp;D spend → production efficiency</text>
+  <rect x="780" y="759" width="30" height="22" rx="4" fill="#898781"/>
+  <text x="818" y="775" font-size="12" font-weight="700" fill="#898781">Flat · repr</text>
+
+  <!-- GDP growth -> demand : -0.61 -->
+  <text x="50" y="814" font-size="13" fill="#0b0b0b">GDP growth → fuel demand</text>
+  <rect x="560" y="803" width="220" height="22" rx="4" fill="#e34948"/>
+  <text x="552" y="819" font-size="12" font-weight="700" fill="#c0322f" text-anchor="end">−0.61</text>
+
+  <text x="1140" y="846" font-size="11" fill="#898781" text-anchor="end">±0.61 = correlations reported in the analysis; bars marked "repr" show reported direction/strength (representative)</text>
+
+  <!-- footer -->
+  <text x="30" y="874" font-size="12" fill="#898781">Heta Chavda · Data Analytics Portfolio</text>
+</svg>
